@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-02T22:28:20.275Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="FQy5-Ru_uNQkTFCLTUm5" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-02T22:30:30.213Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="L_R74_v424f3tInKsXg7" version="20.5.1" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="734" dy="707" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -13,7 +13,7 @@
         <mxCell id="cZqtbgSqyRbhYhAXYLJG-4" value="Scene" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;strokeColor=#001DBC;fontColor=#ffffff;fillColor=#0050ef;" vertex="1" parent="1">
           <mxGeometry x="360" y="40" width="160" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="cZqtbgSqyRbhYhAXYLJG-5" value="+id&#xa;+project_id&#xa;+name&#xa;+description&#xa;+language&#xa;+gender&#xa;+voice_id&#xa;+text&#xa;+text_type&#xa;+created_at&#xa;+updated_at" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;fontColor=#46495D;" vertex="1" parent="cZqtbgSqyRbhYhAXYLJG-4">
+        <mxCell id="cZqtbgSqyRbhYhAXYLJG-5" value="+id&#xa;+project_id&#xa;+name&#xa;+description&#xa;+language&#xa;+gender&#xa;+voice_id&#xa;+text&#xa;+text_type [text, ssml]&#xa;+created_at&#xa;+updated_at" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;fontColor=#46495D;" vertex="1" parent="cZqtbgSqyRbhYhAXYLJG-4">
           <mxGeometry y="30" width="160" height="170" as="geometry" />
         </mxCell>
         <mxCell id="cZqtbgSqyRbhYhAXYLJG-14" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;exitX=1.011;exitY=0.126;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.004;entryY=0.102;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cZqtbgSqyRbhYhAXYLJG-2" target="cZqtbgSqyRbhYhAXYLJG-5">
